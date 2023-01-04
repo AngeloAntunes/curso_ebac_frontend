@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <form id="form-number">
+    <label for="numero-um">Campo A</label><input id="campo-a" type="number" placeholder="Insira um número">
+    
+    <label for="numero-dois">Campo B</label><input id="campo-b" type="number" placeholder="Insira um número">
+    <p class="error-message">
+      O número deste campo precisa ser maior que o número acima.
+    </p>
+    <button class="send-message" type="submit">enviar formulário</button>
+    <button class="sucess-message">Enviado!</button>
+  </form>
+  <script src="/form.js"></script>
+</body>
+</html>
