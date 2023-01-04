@@ -3,10 +3,10 @@
 // Crie um botão para submeter o formulário ---- FEITO
 
 /* Crie uma validação no JavaScript onde o formulário será válido caso
-o campo B, seja maior que o campo A */
+o campo B, seja maior que o campo A ---- FEITO */ 
 
-/* Exiba uma mensagem positiva quando o formulário for válido */
-/* Exiba uma mensagem negativa quando o formulário for inválido */
+/* Exiba uma mensagem positiva quando o formulário for válido ---- FEITO*/
+/* Exiba uma mensagem negativa quando o formulário for inválido ---- FEITO */
 
 const form = document.getElementById('form-number');
 const campoA = document.getElementById('campo-a');
