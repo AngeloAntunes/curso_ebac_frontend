@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+header {
+  color: #820AD1;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+form {
+  margin: 10px 0;
+  text-align: center;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  outline: none;
+  border-left: 4px solid #820AD1;
+  border-right: 4px solid #820AD1;
+  transition: all ease .2s;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+input:hover {
+  border: none;
+  border-bottom: 4px solid #820AD1;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 4px solid #820AD1;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #820AD1;
+  color: #fff;
+  transition: all ease .4s;
+}
+
+button:hover {
+  background-color: #9e0dff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+h2 {
+  color: #820AD1;
+  padding: 5px 5px 5px 10px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #820AD1;
+  text-transform: uppercase;
+}
+
+ul {
+  width: 500px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+ul li {
+  list-style: none;
+  color: #000;
+  padding: 5px;
+  border-bottom: 2px solid #820AD1;
+  cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through solid 4px rgb(158, 13, 255);
+}
