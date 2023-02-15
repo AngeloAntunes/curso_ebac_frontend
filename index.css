@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+header {
+  margin: 50px 0;
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+label,
+input {
+  width: 100%;
+}
+
+label {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-bottom: 2px solid #000;
+  margin: 5px 0 20px 0;
+  transition: all ease .4s;
+}
+
+input:hover {
+  border-bottom-color: blueviolet;
+}
+
+input:focus {
+  border-bottom-color: blueviolet;
+}
+
+button {
+  border: none;
+  border-bottom: 3px solid blueviolet;
+  background-color: transparent;
+  color: blueviolet;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease .5s;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: #fff;
+  border-bottom-color: #fff;
+}
