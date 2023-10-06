@@ -1,0 +1,1 @@
+const tituloPrincipal=document.querySelector("#title");tituloPrincipal.addEventListener("click",function(){tituloPrincipal.classList.contains("newColor")?tituloPrincipal.classList.remove("newColor"):tituloPrincipal.classList.add("newColor")});
