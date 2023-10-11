@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+header {
+  width: 100%;
+  height: 80px;
+}
+header .container {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: #000;
+}
+header .container img {
+  height: 100%;
+}
+header .container .menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+header .container .menu li {
+  list-style-type: none;
+  border-left: 2px solid #ff0000;
+  transition: all ease 0.3s;
+}
+header .container .menu li:hover {
+  border-radius: 4px;
+  padding: 8px;
+  border: 2px solid #ff0000;
+}
+header .container .menu li .menu-link {
+  padding: 8px;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    height: 100px;
+  }
+  header .container {
+    padding-right: 16px;
+    justify-content: space-between;
+  }
+  header .container img {
+    width: 100px;
+  }
+  header .container .menu {
+    gap: 16px;
+  }
+}
+section {
+  height: 100%;
+  margin: 50px 0 0;
+}
+section .container {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section .container h2 {
+  font-family: "Roboto";
+  margin: 16px;
+}
+section .container .products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 24px auto;
+}
+section .container .products .product-item {
+  height: 300px;
+  list-style-type: none;
+  text-align: center;
+  margin: 16px;
+  padding: 0 16px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+section .container .products .product-item h4 {
+  font-family: "Roboto";
+  margin: 8px;
+}
+section .container .products .product-item p {
+  margin: 8px 0 24px;
+}
+section .container .products .product-item .product-button {
+  padding: 8px;
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #000;
+  transition: all ease 0.3s;
+}
+section .container .products .product-item .product-button:hover {
+  font-weight: bold;
+  background-color: #ff0000;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  section .container .products {
+    grid-template-columns: 1fr;
+  }
+  section .container .products .product-item {
+    height: 20em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  section .container .products .product-item {
+    height: 20em;
+  }
+}
