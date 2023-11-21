@@ -13,13 +13,7 @@ const avaliacao = [
 
 // • Criar uma função que irá retornar apenas os alunos que tiveram a nota maior ou igual à 6;
 
-const alunosAprovados = () => {
-  console.log('Os seguintes alunos foram aprovados:')
-  for (let i = 0; i < avaliacao.length; i++) {
-    if (avaliacao[i].nota >= 6) {
-      console.log(`Nome: ${avaliacao[i].nome} - Nota: ${avaliacao[i].nota}`)
-    }
-  }
-}
-
-alunosAprovados();
+console.log('Alunos Aprovados:')
+const alunosAprovados = avaliacao.filter(function (aluno) {
+  return aluno.nota >= 6, console.log(`Nome: ${aluno.nome} - Nota: ${aluno.nota}`);
+})
