@@ -15,7 +15,7 @@ const avaliacao = [
 
 console.log('Alunos Aprovados:')
 const alunosAprovados = avaliacao.filter(function (aluno) {
-  return aluno.nota >= 6;
+  if (aluno.nota >= 6) {
+    return console.log(`Nome: ${aluno.nome} - Nota: ${aluno.nota}`);
+  }
 })
-
-console.log(alunosAprovados)
